@@ -1,0 +1,60 @@
+CSS
+
+inline ineternal external
+Selectors : tag name
+
+decendent selectors: 
+tag1 tag2 {
+    here everything under tag1  is selected
+}
+
+select tag with id 
+id names should always be unique
+<p id="name">
+
+#name {
+    lines...
+}
+
+to use the same style multiple time's you use class
+<p class="clas-Name">
+
+.class-Name {
+    lines...
+}
+
+for color notation 
+
+rgb(x,x,x)
+for transparency 
+rgba(x,x,x,x)
+
+hex notation for color #00aass
+if the numbers are identical only one is enough i.e #00aaff === #0af
+
+pseudo class
+li:: last-child {
+    lines...
+}
+
+selector priority 
+!important >  Inline > ID > class or pseudo > element (p, div, ...)
+
+box model:
+height and width is for content
+a layer above content is padding
+a layer above padding is margin
+
+margin > padding > height and width
+
+margins overlap
+
+inline occupies only what is needed
+block level occupies all the spacce available 
+
+position absolutew will get the content overlap and move around, It will stay
+in the defined place no matter what
+
+h3 + p {
+    lines...
+} here the p tag soon after h3 is selected, it's called the adjacent selector
