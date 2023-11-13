@@ -58,3 +58,29 @@ in the defined place no matter what
 h3 + p {
     lines...
 } here the p tag soon after h3 is selected, it's called the adjacent selector
+
+flex
+
+justify content main axis
+align items cross axis
+direction define main axis
+flex-wrap
+
+align-content use when flex wrap is used
+for contents inside flex we have align-sef,
+ and properties starting with flex.
+
+ for width use flex-basis
+
+ GRID
+ cannot change direction for axis
+ gird-template-rows 
+ gird-template-columns
+
+row-gap, column-gap
+
+justify-items, align-items 
+use span for specifying cell length
+
+sizing 
+for auto sizing you can use 'fr'.

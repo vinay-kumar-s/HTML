@@ -1,0 +1,33 @@
+*{
+    font-family: sans-serif;
+}
+
+.container {
+border: 5px solid black;
+width: 85%;
+margin: auto;
+}
+
+.heading {
+    background-color: rgba(128, 128, 128, 0.406);
+    margin: 0;
+}
+
+.item-container {
+    display: flex;
+    gap: 20%;
+}
+
+.product-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.product-span {
+    grid-column: 1/-1;
+}
+
+.colors {
+    display: flex;
+}
